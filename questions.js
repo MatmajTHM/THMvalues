@@ -1,10 +1,10 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Means of production should be in public ownership.",
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "The freer the markets, the freer the people (and that's good).",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,9 +27,9 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Either the state or the society should provide welfare to the people in need..",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -41,15 +41,15 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 0
         }
     },
     {
         "question": "Tariffs on international trade are important to encourage local production.",
         "effect": {
-            "econ": 5,
+            "econ": 10,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -63,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "It would be best if social programs were abolished.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -86,7 +86,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "Education should be provided for free.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Landlords contribute nothing to the society.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -135,30 +135,30 @@ questions = [
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "Nations should be abolished.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -5,
+            "dipl": 10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Patriotism is not benefical.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -10,
+            "dipl": 10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
         "question": "I support regional unions, such as the European Union.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": 10,
-            "govt": 10,
-            "scty": 5
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -166,7 +166,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Nationalism is never justified..",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -189,27 +189,27 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "My nation is better than others.",
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "People shouldn't indentify with their nationality.",
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
         "question": "International aid is a waste of money.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": -10,
             "govt": 0,
             "scty": 0
@@ -234,11 +234,11 @@ questions = [
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Globalism is not radical enough, me must unite with aliens too.",
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -246,8 +246,8 @@ questions = [
         "question": "Even when protesting an authoritarian government, violence is not acceptable.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
-            "govt": -5,
+            "dipl": 0,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -255,8 +255,8 @@ questions = [
         "question": "My religious values should be spread as much as possible.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -10,
+            "dipl": 0,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -265,7 +265,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -273,9 +273,9 @@ questions = [
         "question": "It is very important to maintain law and order.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -10,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "Suicide should be legal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "The very existence of the state is a threat to our liberty (and that's bad).",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -328,8 +328,8 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
-            "scty": -5
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -363,13 +363,13 @@ questions = [
         "question": "The stronger the leadership, the better.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "Direct democracy, if we can prevent tyranny of majority, is a good idea.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -380,10 +380,10 @@ questions = [
     {
         "question": "Environmental regulations are essential.",
         "effect": {
-            "econ": 5,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 0
         }
     },
     {
@@ -400,7 +400,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -418,21 +418,12 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": -10
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "Churches should be taxed the same way other institutions are taxed (if tax exists).",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -441,10 +432,19 @@ questions = [
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
+        "question": "We should abolish gender.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "We shouldn't discriminate based on identity.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
             "govt": 0,
             "scty": 10
         }
@@ -491,15 +491,15 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 2
+            "scty": 0
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "Marriage should be abolished.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": 0,
             "scty": 10
         }
     },
@@ -507,27 +507,27 @@ questions = [
         "question": "No cultures are superior to others.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 5,
+            "dipl": 0,
+            "govt": 0,
             "scty": 10
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "Asexuals are valid.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "govt": 0,
+            "scty": 0
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "Transgender people are valid.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "govt": 0,
+            "scty": 10
         }
     },
     {
@@ -535,7 +535,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -563,7 +563,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": -10
+            "scty": 0
         }
     },
     {
@@ -597,7 +597,7 @@ questions = [
         "question": "We should open our borders to immigration.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
             "govt": 10,
             "scty": 0
         }
@@ -612,21 +612,21 @@ questions = [
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "All people should be treated equally.",
         "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
             "scty": 10
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "State shouldn't regulate my life.",
         "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
         }
     }
 ];
