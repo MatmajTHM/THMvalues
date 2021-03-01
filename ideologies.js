@@ -36,12 +36,12 @@ ideologies = [
         }
     },
     {
-        "name": "De Leonism",
+        "name": "Nullism",
         "stats": {
-            "econ": 90,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
+            "econ": 6666666666666666666666666666666666666666666666,
+            "dipl": 6666666666666666666666666666666666666666666666,
+            "govt": -6666666666666666666666666666666666666666666666,
+            "scty": 6666666666666666666666666666666666666666666666
         }
     },
     {
@@ -299,16 +299,16 @@ ideologies = [
     {
         "name": "Libertarianism",
         "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
+            "econ": 50,
+            "dipl": 50,
+            "govt": 75,
+            "scty": 50
         }
     },
     {
-        "name": "Anarcho-Egoism",
+        "name": "Anarchism",
         "stats": {
-            "econ": 40,
+            "econ": 50,
             "dipl": 50,
             "govt": 100,
             "scty": 50
@@ -320,7 +320,7 @@ ideologies = [
             "econ": 40,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -335,35 +335,35 @@ ideologies = [
     {
         "name": "Fascism",
         "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "econ": 30,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
         }
     },
     {
         "name": "Capitalist Fascism",
         "stats": {
             "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "dipl": 5,
+            "govt": 10,
+            "scty": 5
         }
     },
     {
         "name": "Conservatism",
         "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
+            "econ": 20,
+            "dipl": 30,
+            "govt": 30,
             "scty": 20
         }
     },
     {
         "name": "Neo-Liberalism",
         "stats": {
-            "econ": 30,
-            "dipl": 30,
+            "econ": 0,
+            "dipl": 80,
             "govt": 50,
             "scty": 60
         }
@@ -371,25 +371,25 @@ ideologies = [
     {
         "name": "Classical Liberalism",
         "stats": {
-            "econ": 30,
+            "econ": 25,
             "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "govt": 70,
+            "scty": 70
         }
     },
     {
         "name": "Authoritarian Capitalism",
         "stats": {
             "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
+            "dipl": 50,
+            "govt": 25,
+            "scty": 50
         }
     },
     {
-        "name": "State Capitalism",
+        "name": "Corporatism",
         "stats": {
-            "econ": 20,
+            "econ": 30,
             "dipl": 50,
             "govt": 30,
             "scty": 50
@@ -398,10 +398,10 @@ ideologies = [
     {
         "name": "Neo-Conservatism",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "econ": 10,
+            "dipl": 70,
+            "govt": 30,
+            "scty": 25
         }
     },
     {
@@ -418,8 +418,8 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "govt": 80,
-            "scty": 60
+            "govt": 75,
+            "scty": 50
         }
     },
     {
@@ -434,7 +434,7 @@ ideologies = [
     {
         "name": "Objectivism",
         "stats": {
-            "econ": 10,
+            "econ": 0,
             "dipl": 50,
             "govt": 90,
             "scty": 40
@@ -444,7 +444,7 @@ ideologies = [
         "name": "Totalitarian Capitalism",
         "stats": {
             "econ": 0,
-            "dipl": 30,
+            "dipl": 50,
             "govt": 0,
             "scty": 50
         }
@@ -453,7 +453,7 @@ ideologies = [
         "name": "Ultra-Capitalism",
         "stats": {
             "econ": 0,
-            "dipl": 40,
+            "dipl": 50,
             "govt": 50,
             "scty": 50
         }
@@ -465,6 +465,38 @@ ideologies = [
             "dipl": 50,
             "govt": 100,
             "scty": 50
+        },
+    {
+        "name": "Quarkism",
+        "stats": {
+            "econ": 60,
+            "dipl": 0,
+            "govt": 35,
+            "scty": 60
+        },
+    {
+        "name": "Capactionism",
+        "stats": {
+            "econ": 70,
+            "dipl": 90,
+            "govt": 80,
+            "scty": 95
+        },
+    {
+        "name": "Aronationalism",
+        "stats": {
+            "econ": 50,
+            "dipl": 25,
+            "govt": 30,
+            "scty": 65
+        },
+    {
+        "name": "Trumpism",
+        "stats": {
+            "econ": 10,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 20
         }
     }
 ];
